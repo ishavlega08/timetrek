@@ -9,7 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        judson: ['Judson', 'serif'],
+      },
+      colors: {
+        'orange': '#FF4C1A',
+        'purple': '#DCE2ED',
+      },
+    },
   },
   plugins: [],
 }
