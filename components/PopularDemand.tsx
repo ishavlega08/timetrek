@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export const PopularDemand = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-10">
+    <div className="mt-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
       <h1 className="text-4xl font-bold mb-8">Popular Demands</h1>
 
-      <div className="flex justify-evenly">
+      <div className="flex cursor-pointer">
         <div className="bg-white rounded-xl shadow-md overflow-hidden w-56 mx-auto">
             <div className="relative h-80">
             <Image
@@ -83,18 +83,18 @@ export const PopularDemand = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-32">
-        <div className="bg-white rounded-lg mx-3 w-44 h-44">
-            Rolex
+      <div className="flex justify-center mt-32 overflow-hidden">
+        <div className="rounded-lg mx-3 w-44 h-44">
+            <img src="/images/brand 1.png" alt="rolex logo" />
         </div>
-        <div className="bg-white rounded-lg mx-3 w-44 h-44">
-            Zenith
+        <div className="rounded-lg mx-3 w-44 h-44">
+            <img src="/images/brand 2.png" alt="zenith logo" />
         </div>
-        <div className="bg-white rounded-lg mx-3 w-44 h-44">
-            Omega
+        <div className="rounded-lg mx-3 w-44 h-44">
+            <img src="/images/brand 3.png" alt="omega logo" />
         </div>
-        <div className="bg-white rounded-lg mx-3 w-44 h-44">
-            Gucci
+        <div className="rounded-lg mx-3 w-44 h-44">
+            <img src="/images/brand 4.png" alt="gucci logo" />
         </div>
       </div>
     </div>
