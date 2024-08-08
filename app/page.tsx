@@ -8,6 +8,8 @@ import { Updates } from "@/components/Updates";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 
 export default function Home() {
+  
+
   return (
     <div className="background bg-[#E8EFF2]">
       <AppBar />
