@@ -38,7 +38,7 @@ export const Discover = () => {
         </div>
         <div className="rounded-2xl overflow-hidden">
           <Image
-            src="/images/discover3.jpg"
+            src="/images/discover4.jpg"
             alt="discover4"
             width={400}
             height={300}

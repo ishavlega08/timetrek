@@ -1,9 +1,11 @@
 import { AppBar } from "@/components/AppBar";
 import { Discover } from "@/components/Discover";
 import { Explore } from "@/components/Explore";
+import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { PopularDemand } from "@/components/PopularDemand";
-import { QnA } from "@/components/QnA";
+import { Updates } from "@/components/Updates";
+import { WhyChooseUs } from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
       <PopularDemand />
       <Discover />
       <Explore />
-      <QnA />
+      <WhyChooseUs />
+      <Updates />
+      <Footer />
     </div>
   );
 }
